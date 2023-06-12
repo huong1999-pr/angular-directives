@@ -1,3 +1,4 @@
+
 import { Component } from '@angular/core';
 
 @Component({
@@ -5,6 +6,9 @@ import { Component } from '@angular/core';
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.scss']
 })
-export class AppComponent {
-  title = 'angular-directives';
+export class AppComponent  {
+  name = 'u';
+  oddNumbers = [1,3,5,7];
+  evenNumbers = [2,4,6,8];
+  onlyOdd = false;
 }
